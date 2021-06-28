@@ -10,7 +10,7 @@ Criar o arquivo .env, fora da pasta src... Dentro do arquivo .env :
   COLLECTION_APP_MONGODB_DATABASE=collection
 }
 
-Preparar todo o ambiente do MongoDB.
+Preparar todo o ambiente do MongoDB e iniciar o mongodb.
 
 Rotas:
   - / (Rota Inicial)
