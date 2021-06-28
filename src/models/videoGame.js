@@ -3,12 +3,16 @@ const mongoose = require('../database');
 const VideoGameSchema = new mongoose.Schema({
     name: {
         type: String,
-        require: true,
+        required: true,
     },
     company: {
         type: String,
-        require: true,
+        required: true,
     },
+    /*game: {
+        type: mongoose.Schema.Types.ObjectId,
+        req: 'Game',
+    },*/
     createdAt: {
         type: Date,
         default: Date.now,
