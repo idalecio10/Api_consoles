@@ -1,4 +1,5 @@
 .env
 node_modules/
 nodemon
+yarn.lock
 localhost Session
