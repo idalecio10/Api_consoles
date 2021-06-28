@@ -20,8 +20,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
+
+
+app.get('/', (req, res) => {
+    res.send('Api para cadastro de Consoles e Jogos... Desenvolvido com Node.Js, Express.Js, MongoDB.');
+})
 require('./controllers/videoGameController')(app);
 require('./controllers/gameController')(app);
+
 
 
 app.listen(3000);
