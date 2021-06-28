@@ -4,6 +4,14 @@ Instalar dependências : npm i
 
 Iniciar : npm run dev
 
+Criar o arquivo .env, fora da pasta src... Dentro do arquivo .env :
+{
+  COLLECTION_APP_MONGODB_HOST=localhost
+  COLLECTION_APP_MONGODB_DATABASE=collection
+}
+
+Preparar todo o ambiente do MongoDB.
+
 Rotas:
   - / (Rota Inicial)
   
